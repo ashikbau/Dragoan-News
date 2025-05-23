@@ -7,7 +7,7 @@ const NewsCards = ({news}) => {
      const formattedDate = new Date(
     news.author.published_date
   ).toLocaleDateString();
-    console.log(news)
+   
     return (
          <div className="card bg-base-100 shadow-md mb-6">
       {/* Author + Share */}
