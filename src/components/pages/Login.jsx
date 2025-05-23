@@ -20,7 +20,10 @@ const Login = () => {
       setUser(user)
       // console.log(user)
       alert("User login successfully")
+       form.reset();
+    
        navigate(`${location.state ? location.state : "/"}`);
+       
        
     })
      .catch((error) => {
