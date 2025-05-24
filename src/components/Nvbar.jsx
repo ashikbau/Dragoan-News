@@ -38,7 +38,7 @@ const Nvbar = () => {
                     </div>
                 </div>
                 
-                <p>{user.displayName}</p>
+                <p>{user?.displayName}</p>
                 </div>
 
 
