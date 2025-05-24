@@ -25,6 +25,7 @@ const handleSignUpUser =(e) =>{
         alert("User Created Sucessfully");
        
         navigate("/")
+        console.log(user)
 
         })
         .catch((error)=>{
